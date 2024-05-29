@@ -17,7 +17,8 @@ public class Project01 {
                 line = bfr.readLine();
             }
             System.out.println(p.isAlive());
-            System.out.println(p.exitValue());
+
+            if(p.isAlive() == false) System.out.println(p.exitValue());
 
         } catch (Exception e) {
             e.printStackTrace();

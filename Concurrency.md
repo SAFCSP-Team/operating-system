@@ -1,0 +1,8 @@
+## Concurrency 
+Concurrency is the ability to execute more than one task at the same time, to utilize hardware resources and speed up the execution process. It can be concluded using multiprocessing or multithreading concepts.
+
+
+(this point should be included after covering multithreading and multiprocessing)
+
+## Context Switching
+Note that, switching between processes or threads which is called context switching is costly. Switching a running process will need a complete snapshot of the current state of the process execution and all its related data and store it as a PCB (Process Control Block). Once the CPU is ready to execute the previously removed process, it will load all of its information and resume its execution. Context switching is a time consuming and costly, that is why you should apply multiprocessing and multithreading it wisely.
