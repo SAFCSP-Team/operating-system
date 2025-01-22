@@ -4,7 +4,7 @@
 int main(){
     FILE* fptr;
 
-    // fopen( <File-Path>, <Options>);
+    // fopen( <file-path>, <mode>);
     fptr = fopen("file.txt","r"); //r: read mode
 
     if(fptr != NULL){
